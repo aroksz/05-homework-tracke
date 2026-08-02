@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student web coding project: Homework Tracker">
+  <title>Homework Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="shell"><nav class="nav"><span class="brand">TASK FLOW</span><span id="summary"></span></nav></header><main class="shell"><section class="hero"><p class="eyebrow">SECTION 5 • PRODUCTIVITY APP</p><h1>Plan work. Finish strong.</h1></section><section class="panel"><form id="taskForm" class="task-form"><input id="taskInput" class="field" placeholder="Example: Finish geometry review" required><select id="subject" class="field"><option>Math</option><option>Science</option><option>English</option><option>Coding</option><option>Other</option></select><button class="btn">Add task</button></form><div class="row filter-row"><button class="btn" data-view="all">All</button><button class="btn alt" data-view="open">Open</button><button class="btn alt" data-view="done">Done</button></div><ul id="taskList"></ul><p id="empty" class="muted">No tasks in this view.</p></section></main>
+<footer class="shell"><img class="footer-avatar" src="images/profile-placeholder.svg" alt="Student profile placeholder">Built with HTML, CSS, and JavaScript • <span id="year"></span></footer>
+<script src="script.js"></script>
+</body>
+</html>
